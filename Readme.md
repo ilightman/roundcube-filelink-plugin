@@ -54,10 +54,10 @@
             Require all granted
         </Directory>
         ```
-3. Выставить ограничения на размер загружаемых файлов 
+3. Выставить ограничения на максимальный размер загружаемых файлов 
     - php (php.ini)
         ```ini
-        upload_max_filesize = 10M
+        upload_max_filesize = 10M # например 300 мегабайт
         post_max_size = 10M
         ```
     - nginx
@@ -91,14 +91,13 @@
     ];
     ```
 5. Перезагрузите веб сервер:
-    - nginx
-        ```bash
-        sudo systemctl reload nginx
-        ```
-    - apache
-        ```bash
-        sudo systemctl reload apache2
-        ```
+    ```bash
+    #nginx
+    sudo systemctl reload nginx
+
+    #apache
+    sudo systemctl reload apache2
+    ```
 6. Если не заработало сразу нужно дополнительно очистить кэш Roundcube
     ```bash
     sudo rm -rf /usr/share/roundcube/temp/*
