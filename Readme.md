@@ -4,15 +4,15 @@
 
 Выглядит как дополнительная кнопка в разделе с добавлением вложений:
 
-![Скриншот с новой кнопкой для загрузки файлов](https://github.com/ilightman/images/raw/main/rouncube-filelink-plugin-images/screen2.png)
+![Скриншот с новой кнопкой для загрузки файлов](https://ilightman.ru/static/github/images/roundcube-filelink-plugin/screen2.png)
 
 И добавляет ссылку в тело письма:
 
-![Скриншот с новой кнопкой для загрузки файлов](https://github.com/ilightman/images/raw/main/rouncube-filelink-plugin-images/screen3.png)
+![Скриншот с новой кнопкой для загрузки файлов](https://ilightman.ru/static/github/images/roundcube-filelink-plugin/screen3.png)
 
 Присутствует индикация загрузки файлов а также поддержка множественной загрузки:
 
-![Индикация загрузки файлов и множественная загрузка](https://github.com/ilightman/images/raw/main/rouncube-filelink-plugin-images/screen5.png)
+![Индикация загрузки файлов и множественная загрузка](https://ilightman.ru/static/github/images/roundcube-filelink-plugin/screen5.png)
 
 ---
 # Установка
